@@ -106,7 +106,7 @@ public class Main {
 //            System.out.println("BA");
 //        }
 //        else if (sonuC>=80 && sonuC<=84) {
-//            System.out.println("BB");
+//            System.out.println("BB"); jkjjk
 //        }
 //        else if (sonuC>=75 && sonuC<=79) {
 //            System.out.println("CB");
