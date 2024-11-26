@@ -29,8 +29,6 @@ public class Main {
 //
 
 
-
-
 //if elseif else  lü yapısının kullanılmasının sebebi if yaparsak hepsini olsa da olmasa da hepsini tek tek kontrol edecek
 
 //        System.out.println("a sayısını giriniz:");
@@ -61,8 +59,6 @@ public class Main {
 //
 //
 //        System.out.println("en büyük: " + maxS );
-
-
 
 
 //        System.out.println("üçgenin taban uzunluğunu giriniz:");
@@ -106,7 +102,7 @@ public class Main {
 //            System.out.println("BA");
 //        }
 //        else if (sonuC>=80 && sonuC<=84) {
-//            System.out.println("BB");
+//            System.out.println("BB"); jkjjk
 //        }
 //        else if (sonuC>=75 && sonuC<=79) {
 //            System.out.println("CB");
@@ -123,9 +119,80 @@ public class Main {
 //        else {
 //            System.out.println("FF");
 //        }
+
+
+//        int sayac=1;
+//        do {
+//            System.out.println("java");
+//            sayac++;
+//
+//        }
+//        while (sayac <= 10);
+
+
+
+
+//5 yazmaz  continue olduğu için atlar
+//    int i;
+//     for(i=1;i<=10;i++) {
+//         if (i == 5) {
+//             continue;
+//         }
+//         System.out.println(i);
+//
+//     }
+
+//        System.out.println("bir sayı giriniz:");
+//        int n = scn.nextInt();
+//        int a=0;
+//        for (int i = 0; i <= n; i++) {
+//            a=+i;
+//        }
+//        System.out.println(a);
+
+
+//        System.out.println(" bir sayı giriniz:");
+//        int sayi= scn.nextInt();
+//        int toplam=0;
+//        int geçiciSayi=sayi;
+//        int basamakSayisi =0;
+//        while (geçiciSayi !=0){
+//            basamakSayisi ++;
+//            geçiciSayi=geçiciSayi/10;
+//        }
+//
+//
+//        while (basamakSayisi!=0){
+//            toplam+= sayi%10;
+//            sayi/=10;
+//            toplam=sayi;
+//        }
+//
+//
+//
+//        System.out.println( toplam);
+
+//        int sayi = scn.nextInt();
+//        for ( sayi=1 ; sayi <=10; sayi++)
+//        {
+//
+//            if ( sayi % 2 ==0 )
+//            {
+//                System.out.println(sayi + " çift sayı");
+//
+//            }
+//            else
+//            {
+//                System.out.println(sayi + " tek sayıdır");
+//            }
+//        }
+
+
+
+
+
+
     }
-
-
 }
 
 
