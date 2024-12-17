@@ -337,7 +337,7 @@ public class Main {
             System.out.println("Dizi[" + i + " ] " + ": " + diziler[i]);
         }
 
-
+a
 
 
 
