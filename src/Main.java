@@ -1,10 +1,11 @@
-//import java.util.Scanner;
+import java.util.Random;
+import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
- //       Scanner scn = new Scanner(System.in);
+        Scanner scn = new Scanner(System.in);
 //        system.in sistem benden deer beklcek demek
 //        eğer iki ismim varsa ikinci ismi de alırsın
 
@@ -186,6 +187,157 @@ public class Main {
 //                System.out.println(sayi + " tek sayıdır");
 //            }
 //        }
+
+
+
+       // klavyeden girilen bia a tam sayısını n tam bölenlerini hesaplayıp listeleyen () -> program
+
+//        System.out.println("bir sayı giriniz:");
+//        int sayi= scn.nextInt();
+//        for (int i=1; i<=sayi; i++) {
+//           if( sayi%i==0)
+//           {
+//               System.out.println(i);
+//           }
+//        }
+
+
+
+
+        //çarpım tablosu
+
+//        System.out.println("birinci sınırı giriniz:");
+//        int aralık1=scn.nextInt();
+//        System.out.println("ikinci sınırı giriniz:");
+//        int aralık2=scn.nextInt();
+//        for (aralık1= aralık1; aralık1<=aralık2; aralık1++)
+//        {
+//            for(int j=1; j<10; j++)
+//            {
+//                System.out.println(aralık1+"x"+j+"="+aralık1*j);
+//            }
+//        }
+
+
+        // klavyeden girilen b tam sayısına göre a^3-a^2= b eşitliğini sağlayan 0<a<100 sayılarını hesaplayın
+//        System.out.println("bir sayı giriniz");
+//        int sayi=scn.nextInt();
+//        int işlem;
+//        for (int i = 1; i <= 100 ; i++)
+//        {
+//            if(i*i*i-i*i == sayi){
+//                System.out.println(i);
+//            }
+
+
+
+
+
+//        for (int i=0; i<5; i++)
+//        {
+//            for (int j=0; j<5; j++)
+//            {
+//                if (i==0 || i==4)
+//                {
+//                    System.out.print("*");
+//                }
+//                else if (j==0 || j==4)
+//                {
+//                    System.out.print("*");
+//                } else
+//                {
+//                    System.out.print(" ");
+//                }
+//            }
+//            System.out.println();
+//        }
+
+
+
+//        ağacın yüksekliğini alıp ağaç çizdirmek?????????????????????????? büyük problem
+
+
+
+
+//        System.out.print("kaç öğrencinin adını ve notunu gireceksiniz:");
+//        int length = scn.nextInt();
+//        int[] notlar=new int[length];
+//        String[] isimler=new String[length];
+//        for (int i=0;i<length;i++) {
+//            System.out.print(i+1 +". öğrencinin adını giriniz:");
+//            isimler[i]=scn.next();
+//            System.out.print(i+1 +". öğrencinin notunu giriniz:");
+//            notlar[i]=scn.nextInt();
+//        }
+//
+//        System.out.println();
+//        System.out.println();
+//        System.out.println();
+//        System.out.println();
+//
+//        for (int i=0;i<length;i++)
+//        {
+//            System.out.println(i + 1 + "." + isimler[i] + " adlı öğrencinin aldığı not " + notlar[i]);
+//        }
+
+
+        
+//        Random rand = new Random();
+//
+//        int tutulanSayi = rand.nextInt(100); // 0-99 arası bir sayı
+//        int tahmin = -1;
+//        System.out.println("0 ile 99 arasında bir sayı tuttum. Tahmin etmeye çalış!");
+//        while (tahmin != tutulanSayi)
+//        {
+//            System.out.print("Tahmininizi girin: ");
+//            tahmin = scn.nextInt();
+//            if (tahmin < tutulanSayi)
+//            {
+//                System.out.println("Daha büyük bir sayı girin.");
+//            }
+//            else if (tahmin > tutulanSayi)
+//            {
+//                System.out.println("Daha küçük bir sayı girin.");
+//            }
+//            else
+//            {
+//                System.out.println("Tebrikler! Sayıyı doğru tahmin ettiniz.");
+//            }
+//        }
+
+
+        //diziye girilen sayıların kareleri toplamını bul
+
+//        System.out.println("kaç elemanlı bir dizi yapacaksınız:");
+//        int diziSayısı = scn.nextInt();
+//        int[] diziler = new int[diziSayısı];
+//        int toplam=0;
+//        for (int i=0; i<diziler.length; i++) {
+//            System.out.println("dizinin " + (i + 1) + ". elemanını giriniz:");
+//            diziler[i] = scn.nextInt();
+//        }
+//
+//        for ( int i=0; i<diziler.length; i++){
+//            System.out.println("Dizi[" + i + " ] " +": " + diziler[i]);
+//            toplam += diziler[i]*diziler[i];
+//
+//        }
+//        System.out.println(toplam);
+
+
+        System.out.println("kaç elemanlı bir dizi yapacaksınız:");
+        int diziSayısı = scn.nextInt();
+        int[] diziler = new int[diziSayısı];
+        for (int i=0; i<diziler.length; i++) {
+            System.out.println("dizinin " + (i + 1) + ". elemanını giriniz:");
+            diziler[i] = scn.nextInt();
+        }
+
+        for ( int i=diziler.length-1; i>=0; i--){
+            System.out.println("Dizi[" + i + " ] " + ": " + diziler[i]);
+        }
+
+
 
 
 
