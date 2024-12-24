@@ -131,8 +131,6 @@ public class Main {
 //        while (sayac <= 10);
 
 
-
-
 //5 yazmaz  continue olduğu için atlar
 //    int i;
 //     for(i=1;i<=10;i++) {
@@ -189,8 +187,7 @@ public class Main {
 //        }
 
 
-
-       // klavyeden girilen bia a tam sayısını n tam bölenlerini hesaplayıp listeleyen () -> program
+        // klavyeden girilen bia a tam sayısını n tam bölenlerini hesaplayıp listeleyen () -> program
 
 //        System.out.println("bir sayı giriniz:");
 //        int sayi= scn.nextInt();
@@ -200,8 +197,6 @@ public class Main {
 //               System.out.println(i);
 //           }
 //        }
-
-
 
 
         //çarpım tablosu
@@ -230,9 +225,6 @@ public class Main {
 //            }
 
 
-
-
-
 //        for (int i=0; i<5; i++)
 //        {
 //            for (int j=0; j<5; j++)
@@ -253,10 +245,7 @@ public class Main {
 //        }
 
 
-
 //        ağacın yüksekliğini alıp ağaç çizdirmek?????????????????????????? büyük problem
-
-
 
 
 //        System.out.print("kaç öğrencinin adını ve notunu gireceksiniz:");
@@ -281,7 +270,6 @@ public class Main {
 //        }
 
 
-        
 //        Random rand = new Random();
 //
 //        int tutulanSayi = rand.nextInt(100); // 0-99 arası bir sayı
@@ -325,33 +313,157 @@ public class Main {
 //        System.out.println(toplam);
 
 
-        System.out.println("kaç elemanlı bir dizi yapacaksınız:");
-        int diziSayısı = scn.nextInt();
-        int[] diziler = new int[diziSayısı];
-        for (int i=0; i<diziler.length; i++) {
-            System.out.println("dizinin " + (i + 1) + ". elemanını giriniz:");
-            diziler[i] = scn.nextInt();
-        }
+        //dizileri tersten yazdırır
 
-        for ( int i=diziler.length-1; i>=0; i--){
-            System.out.println("Dizi[" + i + " ] " + ": " + diziler[i]);
-        }
+//        System.out.println("kaç elemanlı bir dizi yapacaksınız:");
+//        int diziSayısı = scn.nextInt();
+//        int[] diziler = new int[diziSayısı];
+//        for (int i=0; i<diziler.length; i++) {
+//            System.out.println("dizinin " + (i + 1) + ". elemanını giriniz:");
+//            diziler[i] = scn.nextInt();
+//        }
+//
+//        for ( int i=diziler.length-1; i>=0; i--){
+//            System.out.println("Dizi[" + i + " ] " + ": " + diziler[i]);
+//        }
 
-a
 
+// void değer döndürmez
+
+
+        // dört işlem yapan kod her işlem için ayrı metod oluştur
+        //hangi işlemi uapıcaksınız
+        //birinci sayıyı giriniz
+
+//        System.out.println("1-çarpma \n"+ "2-bölme \n" + "3-toplama \n" + "4-çıkarma");
+//        System.out.println("hangi işlemi yapıcaksınız");
+//        int işlemDeğeri = scn.nextInt();
+//        System.out.println("birinci sayıyı giriniz:");
+//        int birinci = scn.nextInt();
+//        System.out.println("ikinci sayıyı giriniz:");
+//        int ikinci = scn.nextInt();
+//        if (işlemDeğeri==1){
+//            int çarpım =çarpma(birinci, ikinci);
+//            System.out.println(çarpım);
+//        }
+//        else if (işlemDeğeri==2){
+//            int bölme =bölme(birinci, ikinci);
+//            System.out.println(bölme);
+//
+//        }
+//        else if (işlemDeğeri==3){
+//            int toplama =toplama(birinci, ikinci);
+//            System.out.println(toplama);
+//        }
+//        else {
+//            int çıkarma =çıkarma(birinci, ikinci);
+//            System.out.println(çıkarma);
+//        }
+//    }
+//    public static int çarpma(int s1, int s2) {
+//        int çarpama=s1*s2;
+//        return çarpama;
+//    }
+//    public static int bölme(int s1, int s2) {
+//        int bölme = s1/s2;
+//        return bölme;
+//    }
+//    public static int toplama(int s1, int s2) {
+//        int toplama=s1+s2;
+//        return toplama;}
+//    public static int çıkarma(int s1, int s2) {
+//        int çıkarma=s1-s2;
+//        return çıkarma;
+//    }
+//
+
+
+        //ödevvvvvv
+//  5 farklı öğrenci için klavyeden vize ve final notlarını alan dönem sonu notunu hesaplayan
+//  harf notlarını ekrana yazdıran metodu oluşturalım
+
+//     for (int i =0 ; i<5; i++)
+//     {
+//         System.out.println((i+1)+". öğrencinin vize notunu giriniz:");
+//        int not1=scn.nextInt();
+//         System.out.println((i+1)+". öğrencinin finalnotunu giriniz:");
+//        int not2=scn.nextInt();
+//        double ortalama= not1 * 40 / 100 + not2 * 60 / 100;
+//         System.out.println((i+1)+". öğrencinin harf notu:" + NotOrtalamasıHesaplama(not1,not2)+ (i+1)
+//         + ". öğrencinin ortalaması:" + ortalama);
+//     }
+//
+        //   }
+//
+//    public static String NotOrtalamasıHesaplama (int not1 , int not2) {
+//
+//        double ort = not1 * 40 / 100 + not2 * 60 / 100;
+//        String harfNotu;
+//        if (ort >= 90) {
+//            harfNotu = "AA";
+//        } else if (ort >= 80) {
+//            harfNotu = "BB";
+//        } else if (ort >= 70) {
+//            harfNotu = "CC";
+//        } else if (ort >= 50) {
+//            harfNotu = "DD";
+//        } else {
+//            harfNotu = "FF";
+//        }
+//
+//        return harfNotu;
+//
+//    }
+
+
+
+
+        //yıldızlarla piramit yapmak
+
+//        System.out.print("üçgenin yüksekliğini giriniz:");
+//        int h = scn.nextInt();
+//        for (int i = 0; i < h; i++) {
+//            for (int j = h; j-i > 1; j--)
+//            {
+//                System.out.print(" ");
+//            }
+//            for (int k =h; k>=h-i; k--)
+//                {
+//                    System.out.print("*");
+//                }
+//            System.out.println();
+//            }
+
+
+
+//sayı üçgeni
+//        System.out.println("üçgenin yüksekliğini giriniz:");
+//        int h=scn.nextInt();
+//        int sayi=1;
+//        for (int i=0;i<=h;i++) {
+//            for (int j=h;j>=i+1;j--) {
+//                System.out.print(" ");
+//                }
+//            for (int k=h; k>h-i; k--)
+//            {
+//                    System.out.print(sayi+" " );
+//                    sayi++;
+//            }
+//                System.out.println();
+//            }
 
 
 
 
 
     }
+
+
+
+
+
+
+
+
 }
-
-
-
-
-
-
-
-
 
