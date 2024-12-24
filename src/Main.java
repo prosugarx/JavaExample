@@ -1,5 +1,5 @@
-import java.util.Random;
-import java.util.Scanner;
+//import java.util.Random;
+//import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -436,7 +436,7 @@ public class Main {
 
 
 
-//sayı üçgeni a
+//sayı üçgeni abc
 //        System.out.println("üçgenin yüksekliğini giriniz:");
 //        int h=scn.nextInt();
 //        int sayi=1;
